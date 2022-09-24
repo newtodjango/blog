@@ -1,0 +1,22 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Blog for All</title>
+        <link rel="stylesheet" href="https://www.google.com">
+
+    </head>
+    <body>
+        <nav class="navbar is-info">
+            <div class="navbar-brand">
+                <a href="/" class="navbar-item"><strong>Blog for All</strong></a>
+            </div>
+        </nav>
+        <section class="section">
+            <div class="container">
+                {% block content %}
+                {% endblock %}
+            </div>
+        </section>
+    </body>
+</html>
